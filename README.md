@@ -8,6 +8,6 @@
 ## 백준 알고리즘 기록
 ### 일주일에 3문제를 푸는걸 목표로하고있다.
 1주차
-  [10891 차이최소최대](acmicpc/exhaustivesearch/problem10891clear.java )
+  [10891 차이최소최대](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem10891clear.java)
 
 

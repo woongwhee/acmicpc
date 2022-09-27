@@ -1,13 +1,13 @@
 # acmicpc
-백준 알고리즘 기록
-백준 풀고있습니다!
-<br>
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkim-soohyeon&count_bg=%23FFDAC7&title_bg=%23FFADAD&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
 
 ![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=davidjin337)](https://solved.ac/davidjin337)
 
-
+## 백준 알고리즘 기록
+### 일주일에 3문제를 푸는걸 목표로하고있다.
+1주차
+  [10891 차이최소최대](acmicpc/exhaustivesearch/problem10891clear.java )
 
 

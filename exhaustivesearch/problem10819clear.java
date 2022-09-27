@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class problem10891clear {
+public class problem10819clear {
         public static void main(String[] args) throws IOException {
             BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
             int length=Integer.parseInt(br.readLine());

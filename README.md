@@ -17,5 +17,6 @@
 1주차
 ----
    [10891](https://www.acmicpc.net/problem/10819)  [차이최소최대](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem10819clear.java) <br>
-   [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789ArrayVersion.java) 배열로 풀었다. 순열탐색으로 다시풀예정<br>
+   [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789/problem2789ArrayVersion.java) 배열 버전<br>
+   [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789/problem2789Backtraking.java) 배열 버전<br>
 

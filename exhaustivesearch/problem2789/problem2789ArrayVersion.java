@@ -1,6 +1,6 @@
 //블랙잭
 
-package net.acmicpc.exhaustivesearch;
+package net.acmicpc.exhaustivesearch.problem2789;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,14 +18,11 @@ public class problem2789ArrayVersion {
 
         int[] arr=new int[N];
         for (int i = 0; i < arr.length; i++) {
-
             arr[i]=Integer.parseInt(st.nextToken());
-
         }
 
 
         int answer=0;
-
         for (int i = 0; i < arr.length-2; i++) {
             for (int j = 1+i; j < arr.length-1; j++) {
                 for (int k = 1+j; k < arr.length; k++) {

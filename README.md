@@ -5,9 +5,12 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=davidjin337)](https://solved.ac/davidjin337)
 
-## 백준 알고리즘 기록
-### 일주일에 3문제를 푸는걸 목표로하고있다.
+백준 알고리즘 기록
+=====
+ 일주일에 3문제를 푸는걸 목표로하고있다.
+
 1주차
-   [10891](https://www.acmicpc.net/problem/10819)  [차이최소최대](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem10819clear.java)<br>
-   [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789ArrayVersion.java) 배열로 풀었다. 순열탐색으로 다시풀예정
+----
+   [10891](https://www.acmicpc.net/problem/10819)  [차이최소최대](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem10819clear.java) <br>
+   [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789ArrayVersion.java) 배열로 풀었다. 순열탐색으로 다시풀예정<br>
 

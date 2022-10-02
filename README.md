@@ -19,4 +19,5 @@
    [10891](https://www.acmicpc.net/problem/10819)  [차이최소최대](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem10819clear.java) <br>
    [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789/problem2789ArrayVersion.java) 배열 버전<br>
    [2798](https://www.acmicpc.net/problem/2798) [블랙잭](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem2789/problem2789Backtraking.java) 배열 버전<br>
+[14889](https://www.acmicpc.net/problem/14889)[스타트와 링크](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14889.java) 시간초과가 자꾸나서 힘들었다.....<br>
 

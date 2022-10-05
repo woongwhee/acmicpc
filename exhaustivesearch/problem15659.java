@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class problem14888 {
+public class problem15659 {
     static int[] num;
     static int[] oper;
     static int Min;
@@ -79,7 +79,6 @@ public class problem14888 {
                 result-=it.next();
             }
         }
-        System.out.println();
         return result;
     }
 }

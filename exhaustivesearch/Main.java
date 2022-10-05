@@ -6,9 +6,8 @@
     import java.util.StringTokenizer;
 
     public class Main {
+        //연습용 클래스입니다.~
         public static void main(String[] args) throws IOException {
-           String test=new String("김이진웅휘김이");
-
             System.out.println(Integer.MIN_VALUE);
 
 

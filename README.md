@@ -25,4 +25,4 @@
 2주차
 ----
    [14888](https://www.acmicpc.net/problem/14888) [연산자 끼워넣기](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14488v2.java)
-   [연산자 우선수리 고려한 경우](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14888.java)<br>
+   [연산자 우선순위 고려한 경우](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14888.java) :문제에서 요구한건 연산자 우선순위가 고려되지 않은경우였지만 문제를 재대로 안읽어서 고려해서 풀어버렸다...<br>

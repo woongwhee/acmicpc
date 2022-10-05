@@ -7,15 +7,11 @@
 
     public class Main {
         public static void main(String[] args) throws IOException {
-            BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-            StringTokenizer st=new StringTokenizer(br.readLine());
-            int bread=Integer.parseInt(st.nextToken());
-            int meat=Integer.parseInt(st.nextToken());
-            int hambuger=0;
-            hambuger=bread/2;
-            if(meat<hambuger){
-                hambuger=meat;
-            }
-            System.out.println(hambuger);
+           String test=new String("김이진웅휘김이");
+
+            System.out.println(Integer.MIN_VALUE);
+
+
+
         }
     }

@@ -33,13 +33,8 @@ public class problem14488 {
 
     private static void operating(int deep,int result) {
         if (deep == N) {
-
-            if (result < Min) {
-                Min = result;
-            }
-            if (result > Max) {
-                Max = result;
-            }
+            Math.min(Min,result);
+            Math.max(Max,result);
         }
         for (int i = 0; i < 4; i++) {
             if (oper[i] == 0) {

@@ -1,10 +1,10 @@
-package net.acmicpc.bfs;
+package net.acmicpc.dfs;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedList;
 
 public class problem2667 {
     static int[][] map;
@@ -22,66 +22,51 @@ public class problem2667 {
                 }
             }
         }
-        ArrayList<Integger> groupCount=new ArrayList<>();
+        LinkedList<Integer> groupCount=new LinkedList<Integer>();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if(visit[i][j]==true){
                     visit[i][j]=false;
-                    Integger groupLength=new Integger();
-                    dfs(i,j,groupLength);
+                    int groupLength=1;
+                    groupLength=dfs(i,j,groupLength);
                     groupCount.add(groupLength);
                 }
             }
         }
         System.out.println(groupCount.size());
-        groupCount.stream().sorted(Comparator.comparingInt(Integger::getValue))
-                .mapToInt(e->e.value)
-                .forEach(System.out::println);
-
+        groupCount.sort(Comparator.naturalOrder());
+        for (Integer groupLength:groupCount) {
+            System.out.println(groupLength.intValue());
+        }
     }
-    public static void dfs(int x,int y,Integger groupLength){
+    public static int dfs(int x,int y,int groupLength){
         if(x!=0) {
             if (visit[x-1][y]) {
                 visit[x-1][y] = false;
-                groupLength.add1();
-                dfs(x-1, y, groupLength);
+                groupLength=dfs(x-1, y, groupLength+1);
             }
         }
         if(x!=N-1){
             if(visit[x+1][y]){
                 visit[x+1][y]=false;
-                groupLength.add1();
-                dfs(x+1,y,groupLength);
+                groupLength=dfs(x+1,y,groupLength+1);
             }
         }
         if(y!=0) {
             if (visit[x][y-1]) {
                 visit[x][y-1] = false;
-                groupLength.add1();
-                dfs(x, y-1, groupLength);
+                groupLength=dfs(x, y-1, groupLength+1);
             }
         }
         if(y!=N-1){
             if(visit[x][y+1]){
                 visit[x][y+1]=false;
-                groupLength.add1();
-                dfs(x,y+1,groupLength);
+                groupLength=dfs(x,y+1,groupLength+1);
             }
         }
+        return groupLength;
     }
 
 
-}
-class Integger{
-    int value;
-    Integger(){
-        this.value=1;
-    }
-    void add1(){
-        this.value++;
-    }
-    int getValue(){
-        return value;
-    }
 }
 

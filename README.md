@@ -27,3 +27,4 @@
    [14888](https://www.acmicpc.net/problem/14888) [연산자 끼워넣기](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14488.java)<br>
    [15659](https://www.acmicpc.net/problem/15659) [연산자 끼워넣기(3)](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem15659.java)<br>
    [2667](https://www.acmicpc.net/problem/2667) 전단지붙이기[(깊이우선탐색)](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem2667.java)[(너비우선탐색)](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2667.java)<br>
+   [2178](https://www.acmicpc.net/problem/2178) [미로탐색](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2178.java)<br>

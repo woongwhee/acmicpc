@@ -3,7 +3,6 @@
 # acmicpc
 
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkim-soohyeon&count_bg=%23FFDAC7&title_bg=%23FFADAD&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
-
 ![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=davidjin337)](https://solved.ac/davidjin337)
@@ -27,3 +26,4 @@
    [14888](https://www.acmicpc.net/problem/14888) [연산자 끼워넣기](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem14488.java)<br>
    [15659](https://www.acmicpc.net/problem/15659) [연산자 끼워넣기(3)](https://github.com/woongwhee/acmicpc/blob/master/exhaustivesearch/problem15659.java)<br>
    [2667](https://www.acmicpc.net/problem/2667) 전단지붙이기[(깊이우선탐색)](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem2667.java)[(너비우선탐색)](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2667.java)<br>
+   [2178](https://www.acmicpc.net/problem/2178) [미로탐색](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2178.java)<br>

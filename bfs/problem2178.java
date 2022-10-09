@@ -38,7 +38,6 @@ public class problem2178 {
     /*
     *   깊이 우선탐색으로 문제를 풀게되면 모든 칸에 방문해야되서 시간초과가난다.
     *   넓이 우선탐색으로 하게되면 모든칸에 최단거리가 얼마인지 계산할수있게된다.
-    *
     */
      public static void bfs(boolean[][] map){
         Queue<Point> queue=new LinkedList<Point>();

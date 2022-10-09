@@ -40,30 +40,35 @@ public class problem2667 {
         }
     }
     public static int dfs(int x,int y,int groupLength){
+
         if(x!=0) {
             if (visit[x-1][y]) {
                 visit[x-1][y] = false;
                 groupLength=dfs(x-1, y, groupLength+1);
             }
         }
+
         if(x!=N-1){
             if(visit[x+1][y]){
                 visit[x+1][y]=false;
                 groupLength=dfs(x+1,y,groupLength+1);
             }
         }
+
         if(y!=0) {
             if (visit[x][y-1]) {
                 visit[x][y-1] = false;
                 groupLength=dfs(x, y-1, groupLength+1);
             }
         }
+
         if(y!=N-1){
             if(visit[x][y+1]){
                 visit[x][y+1]=false;
                 groupLength=dfs(x,y+1,groupLength+1);
             }
         }
+
         return groupLength;
     }
 

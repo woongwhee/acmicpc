@@ -72,7 +72,7 @@ public class problem14502 {
             for (int i = 0; i < 4; i++) {
                 int nextX=x+dx[i];
                 int nextY=y+dy[i];
-                if(0<=nextX&&nextX< map.length&&0<=nextY&&nextY<map[0].length){
+                if(0<=nextX&&nextX<map.length&&0<=nextY&&nextY<map[0].length){
                     if(map[nextX][nextY]==status.Blank){
                         map[nextX][nextY]=status.Virus;
                         queue.add(new Point(nextX,nextY));

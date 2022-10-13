@@ -33,3 +33,4 @@
 3주차
 ----
    [16236](https://www.acmicpc.net/problem/16236) [아기 상어](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem16236.java)<br>
+   [2146](https://www.acmicpc.net/problem/2146) [다리만들기](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2146.java)<br>

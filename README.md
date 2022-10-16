@@ -35,5 +35,6 @@
    [16236](https://www.acmicpc.net/problem/16236) [아기 상어](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem16236.java)<br>
    [2146](https://www.acmicpc.net/problem/2146) [다리만들기](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2146.java)<br>
    [2638](https://www.acmicpc.net/problem/2638) [치즈](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2638.java)<br>
-   [2468](https://www.acmicpc.net/problem/2468) [안전 영역](https://github.com/woongwhee/acmicpc/blob/master/bfs/problem2468.java)<br>
+   [2468](https://www.acmicpc.net/problem/2468) [안전 영역](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem2468.java)<br>
+   [10026](https://www.acmicpc.net/problem/10026) [적록색약](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem10026.java)<br>
    <b>한문제 한문제 어려워저서 푸는데 많은 시간을 소모하고있다..<b>

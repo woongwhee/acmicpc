@@ -1,4 +1,4 @@
-package net.acmicpc.PrefixSum;
+package net.acmicpc.prefixsum;
 
 import java.io.BufferedReader;
 import java.io.IOException;

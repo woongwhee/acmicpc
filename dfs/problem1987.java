@@ -2,10 +2,7 @@ package net.acmicpc.dfs;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-/*
-    배열을통해 접근하면 시간 초과가 날수밖에 없는 구조다
-    다이나믹 프로그래밍 개념을 이용해서 풀어야된다.
- */
+
 public class problem1987 {
     static int R,C,BoardMax,Max;
     static char[][]Board;

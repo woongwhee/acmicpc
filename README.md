@@ -50,3 +50,7 @@
    [11659](https://www.acmicpc.net/problem/11659) [구간합구하기4](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem11659.java)<br>
    [2616](https://www.acmicpc.net/problem/2616) [소형기관차](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem2616.java)<br>
  
+6주차
+----
+   [2559](https://www.acmicpc.net/problem/2559) [수열](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem2559.java)<br>
+   [16139](https://www.acmicpc.net/problem/16139) [인간-컴퓨터 상호작용](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem16139.java)<br>

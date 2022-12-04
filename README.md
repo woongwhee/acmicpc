@@ -50,3 +50,17 @@
    [11659](https://www.acmicpc.net/problem/11659) [구간합구하기4](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem11659.java)<br>
    [2616](https://www.acmicpc.net/problem/2616) [소형기관차](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem2616.java)<br>
  
+6주차
+----
+   [2559](https://www.acmicpc.net/problem/2559) [수열](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem2559.java)<br>
+   [16139](https://www.acmicpc.net/problem/16139) [인간-컴퓨터 상호작용](https://github.com/woongwhee/acmicpc/blob/master/prefixsum/problem16139.java)<br>
+   
+   
+ <hr><hr>
+ 
+ ## 지난 한달간 프로젝트를 진행하느라 문제를 못 풀었다. 다시 매주 3문제 이상 풀도록 하겠다.
+ 
+ 7주차
+ ----
+  [2580](https://www.acmicpc.net/problem/2580) [스도쿠](https://github.com/woongwhee/acmicpc/blob/master/backtracking/problem2580.java)<br>
+ 

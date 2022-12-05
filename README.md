@@ -63,4 +63,6 @@
  7주차
  ----
   [2580](https://www.acmicpc.net/problem/2580) [스도쿠](https://github.com/woongwhee/acmicpc/blob/master/backtracking/problem2580.java)<br>
- 
+  [24479](https://www.acmicpc.net/problem/24479) [알고리즘 수업 - 깊이 우선 탐색 1](https://github.com/woongwhee/acmicpc/blob/master/dfs/problem24479.java)
+<br>
+   

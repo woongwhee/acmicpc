@@ -22,5 +22,4 @@ public class problem1463 {
         }
         System.out.println(dp[N]);
     }
-
 }

@@ -70,7 +70,7 @@
    
   8주차
   ----
-  [2193](https://www.acmicpc.net/problem/2293) [동전1](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2293.java)<br>
+  [2293](https://www.acmicpc.net/problem/2293) [동전1](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2293.java)<br>
   [2294](https://www.acmicpc.net/problem/2294) [동전2](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2294.java)<br>
   [1463](https://www.acmicpc.net/problem/2193) [이천수](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2193.java)<br>
   [11048](https://www.acmicpc.net/problem/11048) [이동하기](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem11048.java)<br>

@@ -23,7 +23,7 @@ public class problem9249 {
     static int hash(String text) {
         int hashValue = 0;
         for (int i=0;i<text.length();i++) {
-            hashValue=(hashValue*base+text.charAt(i))%mod;
+            hashValue=(hashValue+text.charAt(i))*2;
         }
         return hashValue;
     }

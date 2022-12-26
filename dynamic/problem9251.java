@@ -1,4 +1,4 @@
-package net.acmicpc.textsearch;
+package net.acmicpc.dynamic;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,15 +20,11 @@ public class problem9251 {
             for (int j = 1; j <= cArr2.length; j++) {
                 if(cArr[i-1]==cArr2[j-1]){
                     dp[i][j]=dp[i-1][j-1]+1;
-                    if(max<dp[i][j]){
-                        max=dp[i][j];
-                        maxEnd=i;
-                    }
+                }else{
+                    dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
                 }
             }
         }
-
-        System.out.println(max);
-        System.out.println(origin.substring(maxEnd-max,maxEnd));
+        System.out.println(dp[cArr.length][cArr2.length]);
     }
 }

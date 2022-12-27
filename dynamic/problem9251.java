@@ -14,8 +14,6 @@ public class problem9251 {
         char[] cArr = origin.toCharArray();
         char[] cArr2 = br.readLine().toCharArray();
         int[][] dp = new int[cArr.length+1][cArr2.length+1];
-        int max=Integer.MIN_VALUE;
-        int maxEnd=0;
         for (int i = 1; i <= cArr.length; i++) {
             for (int j = 1; j <= cArr2.length; j++) {
                 if(cArr[i-1]==cArr2[j-1]){

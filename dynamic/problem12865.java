@@ -28,7 +28,7 @@ public class problem12865 {
 
         dp=new long[N+1][K+1];
         for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= K; j++) {
+            for (int j = i+1; j <= K; j++) {
                 if(W[i]>j){
                     dp[i][j]=dp[i-1][j];
                 }else{

@@ -74,5 +74,20 @@
   [2294](https://www.acmicpc.net/problem/2294) [동전2](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2294.java)<br>
   [1463](https://www.acmicpc.net/problem/2193) [이천수](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem2193.java)<br>
   [11048](https://www.acmicpc.net/problem/11048) [이동하기](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem11048.java)<br>
-      
+<br>
+   
+  9주차
+  ----
+  [12865](https://www.acmicpc.net/problem/12865) [평범한 배낭](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem12865.java)<br>
+  [9251](https://www.acmicpc.net/problem/9251) [LSC](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem9251.java)<br>   
+  [9249](https://www.acmicpc.net/problem/9249) [LSC](https://github.com/woongwhee/acmicpc/blob/master/textsearch/problem9249.java)<br>   
+<br>
+
+  10주차
+  ----
+  [11053](https://www.acmicpc.net/problem/11053) [가장 긴 증가하는 부분 수열](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem11053.java)<br>
+  [14002](https://www.acmicpc.net/problem/14002) [가장 긴 증가하는 부분 수열 4](https://github.com/woongwhee/acmicpc/blob/master/dynamic/problem14002.java)<br>
+  
+  
+  
   

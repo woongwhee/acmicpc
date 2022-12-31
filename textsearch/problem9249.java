@@ -49,7 +49,6 @@ public class problem9249 {
                 hashText=(hashText+mod)%mod;
                 hashText=((hashText*base)%mod+text.charAt(i+m))%mod;
             }
-
         }
         return 0;
 

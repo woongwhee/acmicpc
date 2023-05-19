@@ -67,8 +67,6 @@ public class problem2661 {
                 }
             }
         }
-
-
         return GoodBad;
     }
 }

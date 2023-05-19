@@ -41,7 +41,6 @@ public class problem14488 {
                 continue;
             }
             oper[i]--;
-
             switch (i){
                 case 0 : operating(deep + 1,result+num[deep]);break;
                 case 1 : operating(deep + 1,result-num[deep]);break;
@@ -50,6 +49,5 @@ public class problem14488 {
             }
             oper[i]++;
         }
-
     }
 }

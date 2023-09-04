@@ -8,10 +8,11 @@ import java.util.Comparator;
  * https://school.programmers.co.kr/learn/courses/30/lessons/181188
  */
 
+
 class Solution {
     public int solution(int[][] targets) {
         int answer = 0;
-        Arrays.sort(targets, (e, d) -> e[0]-d[0]!=0?e[0]-d[0]:e[1] - d[1]);
+        Arrays.sort(targets, (e, d) -> e[1]-d[1]);
         int pivot=0;
         for (int i = 0; i < targets.length; i++) {
             if(targets[i][0]>=pivot){
@@ -23,8 +24,6 @@ class Solution {
         return answer;
     }
 }
-
-
 public class problem181188 {
     static int[][] arr = {{4, 5}, {4, 8}, {10, 14}, {11, 13}, {5, 12}, {3, 7}, {1, 4}};
 
@@ -33,5 +32,6 @@ public class problem181188 {
         int answer = s.solution(arr);
         System.out.println(answer);
     }
+
 
 }

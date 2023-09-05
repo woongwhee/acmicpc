@@ -4,55 +4,84 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-
+/*
+    https://www.acmicpc.net/problem/1043 거짓말
+ */
 public class problem1043 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] strArr = br.readLine().split(" ");
+        //사람수
         int N = Integer.parseInt(strArr[0]);
+        //파티수
         int M = Integer.parseInt(strArr[1]);
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int length = Integer.parseInt(st.nextToken());
-        if (length == 0) {
-            System.out.println(M);
-            return;
+        //알고 있는 사람수
+        String[] knownStr=br.readLine().split(" ");
+        int[] knownList=new int[Integer.parseInt(knownStr[0])];
+        for (int i = 0; i < knownList.length; i++) {
+            knownList[i]=Integer.parseInt(knownStr[i+1]);
         }
-        boolean[] knowLie = new boolean[N+1];
-        for (int i = 0; i < length; i++) {
-            int cur = Integer.parseInt(st.nextToken());
-            knowLie[cur] = true;
+        // 파티 정보
+        Party[] partyList=new Party[M];
+        for (int i = 0; i < M; i++) {
+            partyList[i]=new Party(N);
         }
-        int count = 0;
-        List[] partyList=new List[M+1];
-        List[] visitList=new List[N+1];
-        for (int i = 0; i < N+1; i++) {
-            visitList[i]=new ArrayList<>(N);
+
+        Human[] humanList=new Human[N+1];
+        for (int i = 0; i <= N; i++) {
+            humanList[i]=new Human(M);
         }
         for (int i = 0; i < M; i++) {
-            st = new StringTokenizer(br.readLine());
-            int pCount = Integer.parseInt(st.nextToken());
-            partyList[i]=new ArrayList<>();
-            for (int j = 0; j < pCount; j++) {
-                int cur = Integer.parseInt(st.nextToken());
-                visitList[cur].add(i);
-                partyList[i].add(cur);
+            String[] pArr=br.readLine().split(" ");
+            for (int j = 1; j < pArr.length; j++) {
+                int current=Integer.parseInt(pArr[j]);
+                partyList[i].visitHuman.add(humanList[current]);
+                humanList[current].partyList.add(partyList[i]);
             }
         }
-        Queue<Integer> queue=new LinkedList<>();
-        for (int i = 1; i < N+1; i++) {
-            if(knowLie[i]){
-                queue.add(i);
-            }
+        Queue<Party> queue=new LinkedList();
+
+        for (int i = 0; i < knownList.length; i++) {
+            Human cur=humanList[knownList[i]];
+            queue.addAll(cur.partyList);
         }
-        boolean[] visited=new boolean[M+1];
         while(!queue.isEmpty()){
-            int cur= queue.poll();
-
-            for(Object m:partyList[cur]){
-
-            };
-
+            Party cur=queue.poll();
+            if(cur.visit){
+                continue;
+            }
+            cur.visit=true;
+            cur.canLie=false;
+            for (Human visit:cur.visitHuman) {
+                for (Party p:visit.partyList) {
+                    if(p.canLie){
+                       queue.add(p);
+                    }
+                }
+            }
         }
-        System.out.println(count);
+        int result=0;
+        for(Party p:partyList){
+            if(p.canLie){
+                result++;
+            }
+        }
+        System.out.println(result);
+    }
+    static class Party{
+        ArrayList<Human> visitHuman;
+        boolean canLie;
+        boolean visit;
+        public Party(int N) {
+            this.visitHuman = new ArrayList<>(N);
+            this.canLie = true;
+        }
+    }
+    static class Human{
+        ArrayList<Party> partyList;
+
+        public Human(int m) {
+            this.partyList = new ArrayList<Party>(m);
+        }
     }
 }

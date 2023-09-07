@@ -40,7 +40,6 @@ public class problem1043 {
             }
         }
         Queue<Party> queue=new LinkedList();
-
         for (int i = 0; i < knownList.length; i++) {
             Human cur=humanList[knownList[i]];
             queue.addAll(cur.partyList);

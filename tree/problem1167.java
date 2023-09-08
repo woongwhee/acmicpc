@@ -7,7 +7,12 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
- * 트리
+ * 트리의 지름 https://www.acmicpc.net/problem/1167
+ * 트리의 지름을 구하기 위해서는
+ * 1. 임의의 정점에서 가장 먼 정점을 구한다.
+ * 2. 그정점에서부터 가장 먼 정점 까지의 거리가 트리의 지름이다.
+ * 이문제에서 많이 해맸는데 입력에 대해 너무 안일하게 생각했던거같다.
+ *
  */
 
 

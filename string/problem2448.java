@@ -7,13 +7,6 @@ import java.io.InputStreamReader;
 public class problem2448 {
     static String[][] starArr;
     static String[] blankArr;
-    static void makeBlank(int line){
-        blankArr=new String[line/2+1];
-        blankArr[0]=" ";
-        for (int i = 1; i <=line/2 ; i++) {
-            blankArr[i]=blankArr[i-1]+" ";
-        }
-    }
     public static void makStar(int k){
         starArr[k]=new String[starArr[k-1].length*2];
         String blank="   ";
@@ -24,15 +17,11 @@ public class problem2448 {
         for (int i = 0; i < starArr[k-1].length; i++) {
             starArr[k][i]=blank+starArr[k-1][i]+blank;
         }
-        int blankIndex=starArr[k-1].length-1;
-        int j=0;
+        int start=starArr[k-1].length;
         //아래 별 두개 그리기;
-        for (int i = starArr[k-1].length; i < starArr[k].length; i++) {
-            starArr[k][i]=starArr[k-1][j]+blankArr[blankIndex-j]+starArr[k-1][j];
-            j++;
+        for (int i = 0; i < starArr[k-1].length; i++) {
+            starArr[k][start+i]=starArr[k-1][i]+" "+starArr[k-1][i];
         }
-
-
     }
     public static void printStar(int k){
         for (int i = 0; i < starArr[k-1].length ; i++) {
@@ -49,8 +38,7 @@ public class problem2448 {
             m/=2;
         }
         starArr=new String[k][];
-        starArr[0]=new String[]{"  *"," * *","*****"};
-        makeBlank(line);
+        starArr[0]=new String[]{"  *  "," * * ","*****"};
         for (int i = 1; i < k; i++) {
             makStar(i);
         }

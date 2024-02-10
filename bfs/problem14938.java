@@ -34,7 +34,8 @@ public class problem14938 {
             graph[from].add(new Edge(to,wight));
         }
         br.close();
-
+        String a="d";
+        a.equals("2");
         int max=Integer.MIN_VALUE;
         for (int i = 1; i < N; i++) {
             PriorityQueue<Edge> queue=new PriorityQueue<>();
@@ -68,7 +69,7 @@ public class problem14938 {
         public Edge(int to, int weight) {
             this.to = to;
             this.weight = weight;
-        }
+        } 
         @Override
         public int compareTo(Edge e){
             return Integer.compare(this.weight,e.weight);

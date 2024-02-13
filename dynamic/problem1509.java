@@ -22,15 +22,17 @@ public class problem1509 {
             preProcess();
         }
         private boolean isInitialized = false;
-        private void preProcess() {
-            if (!isInitialized) {
+        private boolean preProcess() {
+            if (isInitialized) {
                 for (int i = 0; i < cArr.length; i++) {
                     findPalindromeLength(i,i);
                     findPalindromeLength(i,i+1);
                 }
                 findMinPartition();
                 isInitialized = true;
+                return true;
             }
+            return false;
         }
         private void findMinPartition(){
             for (int end = 1; end <= cArr.length; end++) {

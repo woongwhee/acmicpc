@@ -40,9 +40,8 @@ public class problem11444 {
         if(n==0){
             return 0;
         }
-        long[][] result=power(F,n-1);
-        return result[0][0];
-
+        long[][] result=power(F,n);
+        return result[0][1];
     }
 
 

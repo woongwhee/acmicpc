@@ -1,8 +1,8 @@
 package net.acmicpc;
 
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Solution {
 

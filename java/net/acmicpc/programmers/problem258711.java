@@ -1,5 +1,9 @@
 package net.acmicpc.programmers;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 public class problem258711 {
     class Solution {
         public int[] solution(int[][] edges) {

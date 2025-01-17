@@ -1,11 +1,8 @@
 package net.acmicpc.greed;
 
 import java.io.BufferedReader;
-
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 //다시푼 방법 코드는 간결해 젔지만 시간,메모리는 획기적으로 줄이진 못했다.
 

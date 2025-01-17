@@ -1,7 +1,6 @@
 package net.acmicpc.programmers;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * 요격시스템

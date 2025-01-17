@@ -1,7 +1,5 @@
 package net.acmicpc.programmers;
 
-import java.util.Arrays;
-
 public class problem178870 {
 //    public int[] solution(int[] sequence, int k) {
 //        int[] answer;

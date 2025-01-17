@@ -1,7 +1,7 @@
 package net.acmicpc.dynamic;
 
-import java.util.*;
 import java.io.*;
+import java.util.StringTokenizer;
 
 /**
  * 욕심쟁이 판다 https://www.acmicpc.net/problem/1937

@@ -4,7 +4,10 @@ package net.acmicpc.tree;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 트리의 지름 https://www.acmicpc.net/problem/1167

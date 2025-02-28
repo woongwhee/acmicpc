@@ -10,8 +10,6 @@ struct Sudoku{
 impl Sudoku{
 
     fn new(arr:[[usize;9];9])->Sudoku{
-
-
         Sudoku{arr,blank_vec:Vec::new()}
     }
 

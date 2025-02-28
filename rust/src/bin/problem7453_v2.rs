@@ -1,7 +1,9 @@
 use std::io::{Read, stdin};
 //two point 알고리즘을 이용해 다시 풀어보기
 fn solve(arrays:Vec<Vec<i32>>)->usize{
+
     let (mut v,mut w)=(vec![],vec![]);
+
     for i in 0..arrays.len(){
         for j in 0..arrays.len(){
             v.push(arrays[i][0]+arrays[j][1]);
